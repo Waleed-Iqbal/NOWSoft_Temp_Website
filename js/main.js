@@ -403,7 +403,4 @@
         $("#about").hide();
         $("#contact").show();
     });
-
-
-
 })(jQuery);
