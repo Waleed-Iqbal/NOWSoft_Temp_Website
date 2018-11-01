@@ -20,7 +20,22 @@
 
 #AndroidServices ul li,
 #IOSServices ul li,
-#DotNetServices ul li
- {
+#DotNetServices ul li {
     list-style: none;
+}
+
+
+#services .services-list a:hover {
+    color: unset;
+    /* font-weight: bold; */
+}
+
+#services .services-list a:hover>div {
+    transform: translateY(-5px);
+}
+
+
+#services .cl-go-top {
+    bottom: 1.8rem;
+    position: fixed;
 }
