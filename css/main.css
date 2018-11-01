@@ -3715,11 +3715,14 @@ html.no-csstransitions .home-content__main {
 /*# sourceMappingURL=main.css.map */
 
 #contact,
-#HomeSideLinksList  {
+#HomeSideLinksList {
   background-color: white;
   background-image: url("../images/green_background_brightness_increased.jpg");
   background-repeat: no-repeat;
+}
 
+#HomeSideLinksList {
+  background: unset;
 }
 
 #contact .contact-main a,
