@@ -1290,7 +1290,7 @@ input::-moz-focus-inner {
   letter-spacing: 0;
   color: #000000;
   letter-spacing: -0.03rem;
-  margin-top: 0;
+  margin-top: 8rem;
   margin-bottom: 4.8rem;
 }
 
@@ -2571,7 +2571,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 10rem;
+  padding-top: 18rem;
   padding-bottom: 18rem;
   color: #555555;
   position: relative;
@@ -3719,6 +3719,7 @@ html.no-csstransitions .home-content__main {
   background-color: white;
   background-image: url("../images/green_background_brightness_increased.jpg");
   background-repeat: no-repeat;
+  background-size: 340%;
 }
 
 #home #HomeSideLinksList {

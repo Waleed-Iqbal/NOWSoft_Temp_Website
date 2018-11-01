@@ -10,3 +10,7 @@
  .contact-body #HomeSideLinksList span a {
      color: var(--theme-color-green);
  }
+
+#HomeSideLinksList span:hover {
+    color: white;
+}
