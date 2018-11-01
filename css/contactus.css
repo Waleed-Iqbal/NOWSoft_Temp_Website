@@ -1,4 +1,12 @@
  #contact h3.subhead.subhead--light {
-    color: black;
-}
+     color: black;
+ }
 
+ .contact-body #HomeSideLinksList {
+     background: none;
+     background-color: white;
+ }
+
+ .contact-body #HomeSideLinksList span a {
+     color: var(--theme-color-green);
+ }

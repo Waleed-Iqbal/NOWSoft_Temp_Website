@@ -1,7 +1,7 @@
 #HomeSideLinksList {
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 10% 10% 50% 5% 5% 5% 5% 10%;
+    grid-template-columns: 10% 10% 42% 7% 7% 7% 7% 10%;
     grid-template-areas: ". NSLogo . HomeSideLinkAbout HomeSideLinkServices HomeSideLinkCareers HomeSideLinkContact . ";
     /**************/
     z-index: 1;
@@ -50,6 +50,7 @@
 }
 
 #NSLogo img {
+    max-width: 190px;
     width: 180px;
     height: 150px;
 }
