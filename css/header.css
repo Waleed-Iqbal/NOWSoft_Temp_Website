@@ -1,0 +1,72 @@
+#HomeSideLinksList {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 10% 10% 50% 5% 5% 5% 5% 10%;
+    grid-template-areas: ". NSLogo . HomeSideLinkServices HomeSideLinkCareers HomeSideLinkAbout HomeSideLinkContact . ";
+    /**************/
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    margin: unset;
+    background-color: white;
+    border-bottom: 2px solid var(--theme-color-green);
+
+}
+
+#HomeSideLinksList span {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#HomeSideLinksList span a:hover {
+    color: unset;
+    transition: none;
+}
+
+#HomeSideLinksList span a {
+    top: 30%;
+    position: relative;
+    text-decoration: none;
+}
+
+#HomeSideLinksList span:hover {
+    background-color: var(--theme-color-light-green);
+    cursor: pointer;
+}
+
+#NSLogo {
+    grid-area: NSLogo;
+    padding-top: 3px;
+}
+
+#HomeSideLinksList #NSLogo a {
+    top: unset;
+}
+
+#HomeSideLinksList #NSLogo:hover {
+    background-color: unset;
+
+}
+
+#NSLogo img {
+    width: 40%;
+    height: 92%;
+}
+
+
+#HomeSideLinkServices {
+    grid-area: HomeSideLinkServices;
+}
+
+#HomeSideLinkCareers {
+    grid-area: HomeSideLinkCareers;
+}
+
+#HomeSideLinkAbout {
+    grid-area: HomeSideLinkAbout;
+}
+
+#HomeSideLinkContact {
+    grid-area: HomeSideLinkContact;
+}
