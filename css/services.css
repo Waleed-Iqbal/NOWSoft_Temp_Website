@@ -1,0 +1,26 @@
+#services h1.display-1,
+#services h2.display-1,
+#services .service-item .service-icon,
+#services .service-item .service-text p,
+#services .service-item .service-text h3,
+#services p.lead {
+    text-align: center;
+}
+
+
+#services h2.display-1 {
+    font-size: 5rem;
+    margin-top: 30px;
+}
+
+
+#services .service-item {
+    padding-right: 35px;
+}
+
+#AndroidServices ul li,
+#IOSServices ul li,
+#DotNetServices ul li
+ {
+    list-style: none;
+}

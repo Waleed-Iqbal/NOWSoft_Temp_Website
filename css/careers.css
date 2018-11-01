@@ -6,3 +6,8 @@
     color: black;
 
 }
+
+
+#careers {
+    background-color: var(--theme-color-grey);
+}
