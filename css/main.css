@@ -2715,7 +2715,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__thumb a::before {
   z-index: 1;
   display: block;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(240, 240, 240, 0.7);
   content: "";
   opacity: 0;
   visibility: hidden;
@@ -3261,7 +3261,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-main {
-  margin-top: 14.4rem;
+  margin-top: 7.4rem;
   margin-bottom: 4.8rem;
 }
 
@@ -3519,7 +3519,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-main {
-    margin-top: 13.2rem;
+    margin-top: 1.2rem;
   }
 
   .contact-email {
@@ -3615,7 +3615,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-main {
-    margin-top: 12rem;
+    margin-top: 1rem;
   }
 
   .contact-email {
@@ -3672,7 +3672,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-main {
-    margin-top: 9.6rem;
+    margin-top: 1rem;
   }
 
   .contact-secondary {
