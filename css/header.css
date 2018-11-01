@@ -9,7 +9,7 @@
     height: 100px;
     margin: unset;
     background-color: white;
-    border-bottom: 2px solid var(--theme-color-green);
+    border-bottom: 2px solid black;
 }
 
 #HomeSideLinksList span {
