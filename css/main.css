@@ -1,11 +1,10 @@
+:root {
+  --theme-color-green: #2ac02a;
+  --theme-color-light-green: #9be79b;
+  --theme-color-grey: #f1f1f1;
+  /* #90e690 */
+}
 
-
- :root {
-   --theme-color-green:#2ac02a;
-   --theme-color-light-green:#9be79b;
-   --theme-color-grey: #f1f1f1;
-    /* #90e690 */
- }
 html {
   font-size: 10px;
 }
@@ -1305,7 +1304,7 @@ input::-moz-focus-inner {
   line-height: 1.3125;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--color-theme-green);
+  /* color: var(--color-theme-green); */
   margin-top: 0;
   margin-bottom: 2.1rem;
 }
@@ -2572,7 +2571,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
+  padding-top: 10rem;
   padding-bottom: 18rem;
   color: #555555;
   position: relative;
@@ -3242,7 +3241,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 21rem;
+  padding-top: 5rem;
   padding-bottom: 10.2rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
@@ -3715,20 +3714,22 @@ html.no-csstransitions .home-content__main {
 
 /*# sourceMappingURL=main.css.map */
 
-#contact {
+#contact,
+#HomeSideLinksList  {
   background-color: white;
+  background-image: url("../images/green_background_brightness_increased.jpg");
+  background-repeat: no-repeat;
+
 }
 
-#contact .display-1--light {
-  color: black;
-}
-
-#contact .contact-main a {
+#contact .contact-main a,
+#contact .contact-social li a,
+#contact h3.subhead.subhead--light {
   color: black;
 }
 
 #contact .contact-number,
 #contact .contact-address,
-#contact .contact-social li a{
-  color: darkgray;
+#contact .display-1--light {
+  color: white;
 }
