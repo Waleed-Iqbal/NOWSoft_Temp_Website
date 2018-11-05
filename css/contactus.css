@@ -2,6 +2,10 @@
      color: black;
  }
 
+ #contact .col-full {
+     margin-top: 100px;
+ }
+
  .contact-body #HomeSideLinksList {
      background: none;
      background-color: white;
@@ -11,6 +15,6 @@
      color: var(--theme-color-green);
  }
 
-#HomeSideLinksList span:hover {
-    color: white;
-}
+ #HomeSideLinksList span:hover {
+     color: white;
+ }
