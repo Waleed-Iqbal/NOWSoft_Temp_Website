@@ -1,13 +1,13 @@
-.services-page #HomeSideLinksList {
-    z-index: 1;
-}
-
-.services-page #HomeSideLinksList span a {
-    color: black;
-
-}
-
-
-#careers {
-    background-color: var(--theme-color-grey);
+.services-page #HomeSideLinksList {
+    z-index: 1;
+}
+
+.services-page #HomeSideLinksList span a {
+    color: black;
+
+}
+
+
+#careers {
+    background-color: var(--theme-color-grey);
 }

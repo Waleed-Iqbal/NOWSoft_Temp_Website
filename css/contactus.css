@@ -3,8 +3,8 @@
  }
 
  #contact .col-full {
-     margin-top: 100px;
- }
+    margin-top: 100px;
+}
 
  .contact-body #HomeSideLinksList {
      background: none;
@@ -13,8 +13,4 @@
 
  .contact-body #HomeSideLinksList span a {
      color: var(--theme-color-green);
- }
-
- #HomeSideLinksList span:hover {
-     color: white;
  }
