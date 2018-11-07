@@ -1,16 +1,30 @@
- #contact h3.subhead.subhead--light {
-     color: black;
- }
-
- #contact .col-full {
-    margin-top: 100px;
+#contact h3.subhead.subhead--light {
+    color: black
 }
 
- .contact-body #HomeSideLinksList {
-     background: none;
-     background-color: white;
- }
+#contact .col-full {
+    margin-top: 100px
+}
 
- .contact-body #HomeSideLinksList span a {
-     color: var(--theme-color-green);
- }
+.contact-body #HomeSideLinksList {
+    background: none;
+    background-color: white
+}
+
+.contact-body #HomeSideLinksList span a {
+    color: var(--theme-color-green)
+}
+
+@media only screen and (max-width:600px) {
+    #contact .col-full {
+        margin-top: 50px;
+    }
+
+    #contact .row {
+        margin-top: 0;
+    }
+
+    #contact .col-full.contact-main {
+        margin-top: 20px;
+    }
+}

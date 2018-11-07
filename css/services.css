@@ -4,21 +4,21 @@
 #services .service-item .service-text p,
 #services .service-item .service-text h3,
 #services p.lead {
-    text-align: center;
+    text-align: center
 }
 
 #services h1.display-1 {
     margin-top: 10px;
-    font-size: 7rem;
+    font-size: 7rem
 }
 
 #services h2.display-1 {
     font-size: 5rem;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 #services .service-item {
-    padding-right: 35px;
+    padding-right: 35px
 }
 
 #AndroidServices ul li,
@@ -26,7 +26,7 @@
 #DotNetServices ul li,
 #WebDevelopmentServices ul li,
 #QualityAssuranceServices ul li {
-    list-style: none;
+    list-style: none
 }
 
 #AndroidServices ul li h3,
@@ -34,20 +34,20 @@
 #DotNetServices ul li h3,
 #WebDevelopmentServices ul li h3,
 #QualityAssuranceServices ul li h3 {
-    margin-top: 3rem;
+    margin-top: 3rem
 }
 
 #services .services-list a:hover {
-    color: unset;
+    color: unset
 }
 
 #services .services-list a:hover>div {
-    transform: translateY(-5px);
+    transform: translateY(-5px)
 }
 
 #services .cl-go-top {
     bottom: 1.8rem;
-    position: fixed;
+    position: fixed
 }
 
 #IOSServicesHeading>i,
@@ -55,5 +55,15 @@
 #DotNetServicesHeading>i,
 #WebDevelopmentServicesHeading>i,
 #QualityAssuranceServicesHeading>i {
-    color: var(--theme-color-light-green);
+    color: var(--theme-color-light-green)
+}
+
+@media only screen and (max-width:600px) {
+    #services h1.display-1 {
+        font-size: 4em;
+    }
+
+    #services h2.display-1 {
+        font-size: 2.5em;
+    }
 }
